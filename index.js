@@ -26,8 +26,6 @@ function adicionarLinhaTabela(linha) {
     const tbody = document.querySelector('#tabela tbody');
     tbody.appendChild(linha);
 }
-
-// Função para limpar os campos do formulário
 function limparCamposFormulario() {
     document.getElementById('nome').value = '';
     document.getElementById('matricula').value = '';
